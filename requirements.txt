@@ -1,0 +1,5 @@
+pyspark>=3.5
+pytest>=7.0
+pandas
+numpy
+matplotlib

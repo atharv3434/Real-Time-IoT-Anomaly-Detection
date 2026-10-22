@@ -1,0 +1,125 @@
+{
+  "truth": [
+    {
+      "anomaly": "spike",
+      "sensor_id": "S07",
+      "metric": "temperature",
+      "window_start": "2026-01-01 00:20:00"
+    },
+    {
+      "anomaly": "spike",
+      "sensor_id": "S07",
+      "metric": "temperature",
+      "window_start": "2026-01-01 00:21:00"
+    },
+    {
+      "anomaly": "spike",
+      "sensor_id": "S07",
+      "metric": "temperature",
+      "window_start": "2026-01-01 00:22:00"
+    },
+    {
+      "anomaly": "spike",
+      "sensor_id": "S07",
+      "metric": "temperature",
+      "window_start": "2026-01-01 00:23:00"
+    },
+    {
+      "anomaly": "spike",
+      "sensor_id": "S07",
+      "metric": "temperature",
+      "window_start": "2026-01-01 00:24:00"
+    },
+    {
+      "anomaly": "drift",
+      "sensor_id": "S13",
+      "metric": "vibration",
+      "window_start": "2026-01-01 00:40:00"
+    },
+    {
+      "anomaly": "drift",
+      "sensor_id": "S13",
+      "metric": "vibration",
+      "window_start": "2026-01-01 00:41:00"
+    },
+    {
+      "anomaly": "drift",
+      "sensor_id": "S13",
+      "metric": "vibration",
+      "window_start": "2026-01-01 00:42:00"
+    },
+    {
+      "anomaly": "drift",
+      "sensor_id": "S13",
+      "metric": "vibration",
+      "window_start": "2026-01-01 00:43:00"
+    },
+    {
+      "anomaly": "drift",
+      "sensor_id": "S13",
+      "metric": "vibration",
+      "window_start": "2026-01-01 00:44:00"
+    },
+    {
+      "anomaly": "drift",
+      "sensor_id": "S13",
+      "metric": "vibration",
+      "window_start": "2026-01-01 00:45:00"
+    },
+    {
+      "anomaly": "drift",
+      "sensor_id": "S13",
+      "metric": "vibration",
+      "window_start": "2026-01-01 00:46:00"
+    },
+    {
+      "anomaly": "drift",
+      "sensor_id": "S13",
+      "metric": "vibration",
+      "window_start": "2026-01-01 00:47:00"
+    },
+    {
+      "anomaly": "drift",
+      "sensor_id": "S13",
+      "metric": "vibration",
+      "window_start": "2026-01-01 00:48:00"
+    },
+    {
+      "anomaly": "drift",
+      "sensor_id": "S13",
+      "metric": "vibration",
+      "window_start": "2026-01-01 00:49:00"
+    },
+    {
+      "anomaly": "drift",
+      "sensor_id": "S13",
+      "metric": "vibration",
+      "window_start": "2026-01-01 00:50:00"
+    },
+    {
+      "anomaly": "drop",
+      "sensor_id": "S03",
+      "metric": "pressure",
+      "window_start": "2026-01-01 00:45:00"
+    },
+    {
+      "anomaly": "drop",
+      "sensor_id": "S03",
+      "metric": "pressure",
+      "window_start": "2026-01-01 00:46:00"
+    },
+    {
+      "anomaly": "drop",
+      "sensor_id": "S03",
+      "metric": "pressure",
+      "window_start": "2026-01-01 00:47:00"
+    }
+  ],
+  "stats": {
+    "events": 7200,
+    "duplicates": 77,
+    "corrupt": 29,
+    "dropouts": 71,
+    "late": 75
+  }
+}
