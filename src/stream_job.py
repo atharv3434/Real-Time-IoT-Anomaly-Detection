@@ -1,4 +1,5 @@
-"""Structured Streaming job.
+"""
+Structured Streaming job.
 
   files -> parse (PERMISSIVE) -> clean -> watermark+dedupe -> 1-min windows per sensor
         -> stream-static join with baseline -> z-scores -> foreachBatch sinks (metrics + alerts)
@@ -8,6 +9,7 @@ A second query routes corrupt lines to a quarantine folder.
 Modes
   replay (default): Trigger.AvailableNow - process everything already in the folder, then stop.
   live            : micro-batch every 5s until Ctrl-C (pair with `generate_data.py --drip 3`).
+  
 """
 import argparse
 import shutil
