@@ -1,7 +1,9 @@
-"""Pure DataFrame transformations, shared by batch (baseline / tests) and streaming code.
+"""
+Pure DataFrame transformations, shared by batch (baseline / tests) and streaming code.
 
 Because these only use operations supported on both batch and streaming DataFrames,
 the exact same logic is unit-tested on static data and run on the stream.
+
 """
 from pyspark.sql import DataFrame
 from pyspark.sql import functions as F
