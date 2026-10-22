@@ -1,4 +1,5 @@
 """Unit tests on static DataFrames (same transforms the stream runs)."""
+
 import pytest
 from pyspark.sql import SparkSession
 
